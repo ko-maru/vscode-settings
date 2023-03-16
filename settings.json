@@ -1,0 +1,124 @@
+{
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Source Han Code JP, monospace",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "trailing",
+  "editor.cursorStyle": "block",
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "solid",
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（",
+  "editor.cursorSurroundingLines": 5,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "explorer.incrementalNaming": "smart",
+  "terminal.integrated.fontFamily": "HackGen Console NF",
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "underline-thin",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.cursorStylePerMode.visualblock": "block",
+  "vim.cursorStylePerMode.visualline": "block",
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-Bslash>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"],
+      "silent": true
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"],
+      "silent": true
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": [":bnext"],
+      "silent": true
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": [":bprevious"],
+      "silent": true
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": [":nohlsearch"],
+      "silent": true
+    },
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"],
+      "silent": true
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "="],
+      "commands": ["editor.action.formatDocument"],
+      "silent": true
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["g", "D"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "I"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"]
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.showmodename": false,
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "vim.whichwrap": "b,s,<,>",
+  "vim.foldfix": true,
+  "vim.visualstar": true
+}
